@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { 
   Home,
   Upload,
-  FileBar,
+  FileText,
   Users, 
   Send,
   ChartBar,
@@ -31,7 +31,7 @@ const navItems: NavItem[] = [
   },
   {
     title: "Meeting Summaries",
-    icon: FileBar,
+    icon: FileText,
     href: "/summaries",
   },
   {
